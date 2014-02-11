@@ -6,11 +6,13 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="<%= params[:controller] %> <%= params[:action] %>">
 
   <div class='navbar fixed'>
      <div class='container'>
-        <h4 class='pull-left'>Marvel Gallery</h4>
+        <h4 class='pull-left'>
+          <%= link_to "Marvel Gallery", root_path %>
+        </h4>
         
         <ul class='pull-right'>
            <li><%= link_to "All Characters", characters_index_path %></a></li>
