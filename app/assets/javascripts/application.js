@@ -16,7 +16,3 @@
 //= require skrollr
 //= require_tree .
 
-
-window.onload = function() {
-  skrollr.init();
-}
