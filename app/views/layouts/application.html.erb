@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MarvelGallery</title>
+  <title>Marvel Gallery</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+  <div class='navbar fixed'>
+     <div class='container'>
+        <h4 class='pull-left'>Marvel Gallery</h4>
+        
+        <ul class='pull-right'>
+           <li><%= link_to "All Characters", characters_index_path %></a></li>
+           <li><%= link_to "Marvel Quiz", quiz_show_path %></a></li>
+           <li><%= link_to "Hero or Evil ?", alliance_show_path %></a></li>           
+        </ul>
+     </div>
+  </div>
+  
+  <%= yield %>
 
 </body>
 </html>
