@@ -1,7 +1,14 @@
 <h1>Hero or Evil ?</h1>
 
-<img src="http://i.annihil.us/u/prod/marvel/i/mg/8/c0/4ce5a0e31f109.jpg">
+<div class='row'>
+   <div class='span ten'>
+     <%= image_tag @character.thumbnail_image_url %>
+   </div>
+</div>
 
-<button id="">Hero</button>
-
-<button id="">Evil</button>
+<div class='row'>
+   <div class='span ten'>
+     <button class="button primary large">Hero</button>
+     <button class="button primary large">Evil</button>     
+   </div>
+ </div>
