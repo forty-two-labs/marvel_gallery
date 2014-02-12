@@ -1,13 +1,15 @@
-<% @character.each do |character| %>
-  <div class='img-container'>
-  <img data-0="transform:rotate(0deg);width:100px;height:100px;margin-top:0px"
-       data-500="transform:rotate(360deg);width:600px;height:600px;margin-top:600px"
-       src="<%= "#{character.thumbnail_image_url}" %>"
-       width="100px"
-       height="100px">
-  </img>
-  </div>
-<% end %>
+<div class="container">
+  <% @character.each do |character| %>
+    <div class='img-container'>
+    <img data-0="transform:rotate(0deg);width:100px;height:100px;margin-top:0px"
+         data-500="transform:rotate(360deg);width:600px;height:600px;margin-top:600px"
+         src="<%= "#{character.thumbnail_image_url}" %>"
+         width="100px"
+         height="100px">
+    </img>
+    </div>
+  <% end %>
+</div>
 
 <!-- <div class='img-container'>
 <img data-0="transform:rotate(0deg);width:100px;height:100px;margin-top:0px"
