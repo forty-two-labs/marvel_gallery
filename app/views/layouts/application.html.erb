@@ -26,8 +26,10 @@
   <%= yield %>
   
   <script type="text/javascript">
-    var s = skrollr.init();
+    $( document ).ready(function() {
+      var s = skrollr.init();
+      s.refresh();
+    });
   </script>
-
 </body>
 </html>

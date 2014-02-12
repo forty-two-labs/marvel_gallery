@@ -7,6 +7,15 @@ body.home.index {
   background-size: cover;
 }
 
-.img-container {
+.text-center {
   text-align: center;
+}
+
+.img-container img {
+  border-radius: 100%;	
+}
+
+input {
+  font-size: 1.1em;
+  padding: 15px;
 }
