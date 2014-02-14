@@ -3,7 +3,10 @@ body {
 }
 
 body.home.index {
-  background-image: image-url('marvel_banner.jpg');
+  background: image-url('marvel_banner.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
