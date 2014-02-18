@@ -22,3 +22,15 @@ input {
   font-size: 1.1em;
   padding: 15px;
 }
+
+.container .background {
+  background-color: #222;
+  position: fixed;
+  opacity: 0.7;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transform: translateZ(0);
+}
