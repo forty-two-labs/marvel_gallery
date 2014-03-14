@@ -1,3 +1,3 @@
 == Marvel Gallery
 
-[http://marvel-gallery.herokuapp.com/] (http://marvel-gallery.herokuapp.com/)
+[http://marvel.42la.bs/] (http://marvel.42la.bs/)
